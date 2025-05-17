@@ -1,0 +1,19 @@
+{
+  "name": "cypress-web-tests",
+  "version": "1.0.0",
+  "description": "End-to-end web testing project using Cypress with JavaScript. Covers functional UI tests, user flows, and assertions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Henrique Koaski",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress": "^14.3.3",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.25.3"
+  }
+}
