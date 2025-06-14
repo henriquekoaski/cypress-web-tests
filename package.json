@@ -1,0 +1,19 @@
+{
+  "name": "cypress-web-tests",
+  "version": "1.0.0",
+  "description": "End-to-end (E2E) web testing project using Cypress, BDD with Cucumber, and Page Object Model (POM). Functional UI tests for the Automation Exercise website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "Henrique Koaski",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress": "^14.4.1",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.25.3"
+  }
+}
